@@ -79,7 +79,7 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "learn_django_v5.users",
+    "learn_django_v5.users.apps.UsersConfig",
     # Your stuff: custom apps go here
     "learn_django_v5.pages",
 ]
