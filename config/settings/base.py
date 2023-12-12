@@ -81,6 +81,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "learn_django_v5.users",
     # Your stuff: custom apps go here
+    "learn_django_v5.pages",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
