@@ -14,7 +14,7 @@ urlpatterns = [
     path("users/", include("learn_django_v5.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    path("pages/", include("learn_django_v5.pages.urls")),
+    # path("books/", include("learn_django_v5.books.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
