@@ -5,6 +5,7 @@ addopts = "--ds=config.settings.test --reuse-db --create-db"
 python_files = [
     "tests.py",
     "test_*.py",
+    "tests_*.py",
 ]
 
 # ==== Coverage ====
