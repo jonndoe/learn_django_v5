@@ -332,3 +332,6 @@ learn_django_v5/media/
 .env
 .envs/*
 !.envs/.local/
+
+
+cmd_history.txt
