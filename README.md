@@ -1,6 +1,32 @@
 # learn_django_v5
 
-Behold My Awesome Project!
+In this project I set up the development enviroment for django projects with the help of django-cookiecutter.
+and build some very basic app for functional testing.
+
+The setup of this development enviroment is as following:
+
+- django docker container
+- postgresql docker container
+- docs docker container
+
+It is convenient to have development enviroment as docker-based.
+It runs pre-commit hooks and pytest. All was set up successfully.
+
+The steps to create development enviroment are as following:
+
+### create some folder for the project:
+- mkdir projectdir
+- cd projectdir
+### install conda -> create and activate conda enviroment
+- conda create --name env311_django42 python=3.11
+- conda activate env311_django42
+### install git
+### install git-hooks
+### install docker and docker-compose (see digitalocean tutorials)
+
+### create project with django-cookiecutter, choose docker:yes, whitenoise:yes
+
+- TO BE CONTINUED
 
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
